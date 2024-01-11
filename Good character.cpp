@@ -1,5 +1,6 @@
 //https://www.codingninjas.com/studio/contests/weekly-contest-108/10930214/problems/29717
 
+
 int numberOfGoodCharacters(int n, string s) {
     // Write your code here.
     int ans = 0;
