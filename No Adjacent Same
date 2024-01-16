@@ -1,0 +1,17 @@
+//https://www.codingninjas.com/studio/problem-of-the-day/easy
+
+
+#include <bits/stdc++.h> 
+bool checkBits(unsigned int n) {
+    // Write your code here.
+    int p=-1,pre=0;
+    while(n){
+        pre = (n&1);
+        if(p!=-1 and p == pre){
+            return false;
+        }
+        p=pre;
+        n>>=1;
+    }
+    return true;
+}
