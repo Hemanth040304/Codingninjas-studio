@@ -24,7 +24,7 @@ vector < int > findAllSelfDividingNumbers(int lower, int upper) {
     vector<int> ans;
 
     for (int i = lower; i <= upper; i++) {
-        if (self(i)) ans.emplace_back(i);
+        if (self(i)) ans.emplace_back(i); 
     }
 
     return ans;
