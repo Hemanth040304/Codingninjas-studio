@@ -1,5 +1,5 @@
 //https://www.naukri.com/code360/problem-of-the-day/easy?leftPanelTabValue=PROBLEM
-// potd 5th MAY 2024
+// potd 11th MAY 2024
 #include <bits/stdc++.h> 
 
 bool pal(string s){
